@@ -1,68 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align='center'> Musipp </h1>
+<p align='center'>A React app to Stream Music/Playlist using Spotify Api</p>
 
-## Available Scripts
+## Introduction
 
-In the project directory, you can run:
+[![React](https://img.shields.io/badge/React-16.9.0-black.svg?style=rounded-square)](https://reactjs.org/)
+[![style: styled-components](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e)](https://github.com/styled-components/styled-components)
 
-### `npm start`
+> This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Download and Run
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+1. Go to [Musipp Backend](https://github.com/fikribasa/musipp-backend) and follow its instructions to download and run it.
+2. Either `git clone` or `git pull` this repo to your local machine
+3. Run `npm install` to download the current node_modules
+4. Run `npm start`. This will open the website on your localhost:3000
 
-### `npm test`
+Note: In order to login to Spotify, you'll need this React server (localhost:3000) and the auth server (localhost:8888) running at the same time.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## App ScreenShoots
 
-### `npm run build`
+<p align='center'>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+  <span>
+      <image  width="350px" src='./screenshoot/landing.JPG' /> &nbsp;&nbsp;
+      <image src='./screenshoot/profile.JPG'  width="350px" /> &nbsp;&nbsp;
+      <image src='./screenshoot/top track.JPG'  width="350px"/>  &nbsp;&nbsp;
+      <image src='./screenshoot/playlists.JPG'  width="350px" /> &nbsp;&nbsp;
+      <image src='./screenshoot/playlist.JPG'  width="350px" /> &nbsp;&nbsp;
+      <image src='./screenshoot/track.JPG'  width="350px" /> &nbsp;&nbsp;
+  </span>
+</p>
