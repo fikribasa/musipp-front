@@ -25,7 +25,8 @@ const Menu = styled.ul`
 `;
 const MenuItem = styled.li`
   color: ${colors.lightGrey};
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: "bold";
   width: 20vw;
   a {
     display: block;

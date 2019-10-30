@@ -37,7 +37,7 @@ const LoginButton = styled.a`
 const LoginScreen = () => (
   <Login>
     <h1>Musipp Your Music</h1>
-    <LoginButton href="http://localhost:8888/auth">
+    <LoginButton href="https://musipp-backend.herokuapp.com/">
       Log in to Spotify
     </LoginButton>
   </Login>
